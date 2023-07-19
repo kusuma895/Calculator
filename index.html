@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body style="position: relative; ">
+     <div class="center">
+        <h1>My Simple Calculator</h1>
+        <h3 style="color: rgb(181, 29, 77);">Enter First Number : </h3>
+        <input type="number" id="val1" style="background-color:rgb(222, 95, 163);">
+        <h3 style="color: rgb(181, 29, 77);">Enter Second Number : </h3>
+        <input type="number" id="val2" style="background-color:rgb(222, 95, 163);">
+        <h3 style="font-style: italic;">ADDITION</h3>
+        <p id="ans1" style="color: rgba(214, 15, 124, 0.555);font-size: large;">Addition is </p>
+        <button id="add" onclick="Add()" style="background-color: darkseagreen;">Add(+)</button>
+        <h3 style="font-style: italic;">SUBTRACTION</h3>
+        <p id="ans2" style="color: rgba(214, 15, 124, 0.555);font-size: large;">Subtraction is </p>
+        <button id="sub" onclick="Sub()" style="background-color: darkseagreen;">Sub(-)</button>
+        <h3 style="font-style: italic;">MULTIPLICATION</h3>
+        <p id="ans3" style="color: rgba(214, 15, 124, 0.555);font-size: large;">Multiplication is </p>
+        <button id="mul" onclick="Mul()" style="background-color: darkseagreen;">Mul(*)</button>
+        <h3 style="font-style: italic;">DIVISION</h3>
+        <p id="ans4" style="color: rgba(214, 15, 124, 0.555);font-size: large;">Division is </p>
+        <button id="div" onclick="Div()" style="background-color: darkseagreen;">Div(/)</button>
+        <h3 style="font-style: italic;">MODULO</h3>
+        <p id="ans5" style="color: rgba(214, 15, 124, 0.555);font-size: large;">Modulo is </p>
+        <button id="mod" onclick="Mod()" style="background-color: darkseagreen;">Mod(%)</button>
+     </div>
+     <script src="./script.js"></script>
+</body>
+</html>
